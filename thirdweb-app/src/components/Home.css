@@ -1,0 +1,7 @@
+.HomeParent{
+
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    flex-direction: row;
+}

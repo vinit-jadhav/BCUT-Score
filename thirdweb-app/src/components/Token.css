@@ -1,0 +1,35 @@
+.loading-table {
+  position: relative;
+  background: linear-gradient(90deg, #2f384e 25%, #1f2937 50%, #2f384e 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  pointer-events: none; /* Prevent interactions while loading */
+  opacity: 0.8; /* Slightly dimmed */
+  border-radius: 8px;
+  height: 500px;
+  min-height: 500px;
+}
+
+.bg-glass-loading {
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+thead {
+  border-radius: 8px;
+}
+
+.abc{
+  margin-top: 500px;
+}
