@@ -1,1 +1,1 @@
-![BCUT Score](./banner.png)
+![BCUT Score](./BCUT-IMG.png)
